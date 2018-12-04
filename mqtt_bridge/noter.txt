@@ -1,0 +1,4 @@
+rosluanch mqtt_bridge mqtt_bridge
+rostopic echo /pong
+mosquitto_pub -t "ping" -m '{"data":true}'
+/config/demo_params indeholder "connections" og data typer
